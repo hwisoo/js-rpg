@@ -2,33 +2,68 @@
 <html>
 
 <head>
-  <title>Triangle Test</title>
+  <title>RPG Game</title>
 
 </head>
 
 <body>
-  <div id="header" class="header">
-    <h1>Get ready to fight!</h1>
-    <p>choose your character</p>
-  </div>
-  <div id="body">
-    <div>
-
-      <img class="characters" id="warrior" src="https://vignette.wikia.nocookie.net/assassinscreed/images/a/ae/AC3L_-_Warrior.png/revision/latest?cb=20130808214031">
-      <img class="characters"  id="mage" src="https://forums.rpgmakerweb.com/data/attachments/44/44614-eeaf6227a0a50679fb48e38dc9c688d0.jpg">
-      <img class="characters" id="paladin" src="https://vignette.wikia.nocookie.net/finalfantasy/images/c/cb/FFXIV_Stormblood_Paladin.png/revision/latest?cb=20170802085418">
-      <img class="characters" id="undead" src="https://i.dlpng.com/static/png/304020_thumb.png">
-      <img class="characters" id="archer" src="https://vignette.wikia.nocookie.net/atlantica/images/2/29/Archer.png/revision/latest?cb=20090213131130">
-    </div>
-  </div>
-
-  <div id="footer">footer</div>
-
-  <div id="horde">
-  <img class="enemies" id="demon" src="https://vignette.wikia.nocookie.net/wartune/images/b/bb/Demonic_Angel.png/revision/latest?cb=20150327204951">
-  <img class="enemies" id="ogre" src="https://vignette.wikia.nocookie.net/darksouls/images/c/c5/Ogre.png/revision/latest?cb=20140608104642">
   
-</div>
+    <div id="header">
+      <h1>Get ready to fight!</h1>
+      <p>Choose your character</p>
+    </div>
+    <div id="body">
+      <div>
+        
+          <figure class="characters" id="warrior">
+            <img src="https://vignette.wikia.nocookie.net/assassinscreed/images/a/ae/AC3L_-_Warrior.png/revision/latest?cb=20130808214031">
+            <figcaption>Warrior</figcaption>
+          </figure>
+          
+          <figure class="characters" id="mage" >
+          <img src="https://forums.rpgmakerweb.com/data/attachments/44/44614-eeaf6227a0a50679fb48e38dc9c688d0.jpg">
+          <figcaption>Mage</figcaption>
+          </figure>
+
+          <figure class="characters" id="paladin">
+          <img src="https://vignette.wikia.nocookie.net/finalfantasy/images/c/cb/FFXIV_Stormblood_Paladin.png/revision/latest?cb=20170802085418">
+          <figcaption>Paladin</figcaption>
+          </figure>
+
+          <figure class="characters" id="undead">
+          <img src="https://i.dlpng.com/static/png/304020_thumb.png">
+          <figcaption>Undead</figcaption>
+        </figure>
+
+        <figure class="characters" id="archer">
+          <img src="https://vignette.wikia.nocookie.net/atlantica/images/2/29/Archer.png/revision/latest?cb=20090213131130">
+          <figcaption>Archer</figcaption>
+        </figure>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div id="playerStats"></div>
+
+    <div id="horde">
+      <h3>Choose an enemy to battle!</h3>
+      
+      <img class="enemies" id="demon" src="https://vignette.wikia.nocookie.net/wartune/images/b/bb/Demonic_Angel.png/revision/latest?cb=20150327204951">
+
+      <img class="enemies" id="ogre" src="https://vignette.wikia.nocookie.net/darksouls/images/c/c5/Ogre.png/revision/latest?cb=20140608104642">
+
+    </div>
+
+    <div id="enemyStats"></div>
+    <div id="battle"></div>
+    <!-- <div id="attack"></div> -->
+    
+    <div id="battleField">
+      
+    </div>
+
   <script type="text/javascript">"src/character.js"</script>
 </body>
 

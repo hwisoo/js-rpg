@@ -1,17 +1,43 @@
-body {
-  background-color: #7FDBFF;
+* {
+  font-family: monospace;
+  color: white;
+  background-color: black;
+  
+}
+
+h1{
+  text-align: center;
 }
 
 img {
   height: 200px;
   width: 200px;
+  display: flex;
 }
 
 img:hover {
-  background-color: blue;
+  background-color: white;
   cursor: pointer;
+  border: darkgray;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
 }
 
 .invisible{
   display: none;
+}
+figure{
+  margin: auto;
+}
+
+figcaption{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
 }
